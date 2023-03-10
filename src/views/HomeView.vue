@@ -1,55 +1,70 @@
 <template>
-  <header class="text-gray-600 body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">SRML</span>
-      </a>
-      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+  <div class="flex justify-center bg-blue-900 text-white ">
+    <nav class="self-center w-full max-w-7xl  ">
+      <div class="flex md:flex-row flex-col  justify-between items-center md:items-start">
+        <h1 class=" py-4 text-2xl font-sans font-bold px-10">SRML</h1>
+        <ul class="flex justify-center my-4  items-center text-sm md:text-[18px] font-bold  md:px-10">
+          <li
+              class="hover:underline  underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
+            <a href="#">主页</a>
+          </li>
+          <li
+              class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
+            <a href="#">兵种树</a>
+          </li>
+          <li
+              class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
+            <a href="#">下载</a>
+          </li>
+          <li
+              class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
+            <a href="#">关于</a>
+          </li>
 
-        <a class="mr-5 hover:text-gray-900">首页</a>
-        <a class="mr-5 hover:text-gray-900"></a>
-        <a class="mr-5 hover:text-gray-900">Third Link</a>
-        <a class="mr-5 hover:text-gray-900">Fourth Link</a>
-      </nav>
-      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
-      </button>
-    </div>
-  </header>
+        </ul>
 
-  <section class="text-gray-600 body-font">
-    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-      <div class="text-center lg:w-2/3 w-full">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
-        <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
-        <div class="flex justify-center">
-          <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
-          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="flex justify-center  bg-blue-900 p-5 md:p-16 lg:p-28">
+    <div class="flex flex-col justify-center  max-w-7xl  text-white">
+      <h1 class="text-base font-medium tracking-wider ">欢迎来到 SRML 主页</h1>
+      <span class="underline underline-offset-2 text-white -mt-3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                    &nbsp; </span>
+      <div class="flex flex-col text-white mt-5">
+        <h1 class="text-4xl md:text-[50px] font-semibold">赛 睿 米 林</h1>
+        <p class="text-xl mt-2 md:mt-4 tracking-wide">战 斗 - N P C - 辎 重</p>
+      </div>
+      <p class="mt-4 text-sm md:w-[52%] tracking-wide leading-7">test tes1 test tes1test tes1 test tes1test tes1test tes1 test tes1test tes1test tes1test tes1 test tes1test tes1test tes1test tes1test tes1test tes1test tes1test tes1 test tes1test tes1 test tes1test tes1test tes1 test tes1test tes1test tes1test tes1 test tes1test tes1test tes1test tes1test tes1test tes1test tes1 </p>
+      <div class="space-x-3 mt-6 md:mt-4">
+        <a href="#"> <i
+            class="fa-brands fa-facebook-f bg-blue-600 hover:text-blue-500 hover:bg-white rounded-full px-3 py-[11px] w-9 h-9 text-center "></i>
+        </a>
+        <a href="#"> <i
+            class="fa-brands fa-twitter bg-blue-600 hover:text-red-500 hover:bg-white rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></i>
+        </a>
+        <a href="#"> <i
+            class="fa-brands fa-linkedin bg-blue-600 hover:text-yellow-500 hover:bg-white rounded-full px-3 py-[11px] w-9 h-9 text-center"></i>
+        </a>
+        <a href="#"> <i
+            class="fa-brands fa-chrome bg-blue-600 hover:text-indigo-600 hover:bg-white rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></i>
+        </a>
+
+      </div>
+      <div class="flex mt-10 space-x-5">
+        <button class="bg-white text-blue-600 px-6 py-2 hover:brightness-105 font-semibold">Read More</button>
+        <button
+            class="bg-blue-900 text-white border-2 border-white px-6 py-2 hover:brightness-105 font-semibold">Contact
+          Me</button>
+
       </div>
     </div>
-  </section>
-  <h1 v-for="list in myObject" :key="list.ids">
-    {{ list.title }}. {{ list.key }}: {{ list.value }}
-  </h1>
+  </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
 import HelloWorld from '@/components/HelloWorld.vue';
-import { reactive } from 'vue'
-
-const myObject = reactive({
-  ids: "01",
-  title: 'How to do lists in Vue',
-  author: 'Jane Doe',
-  publishedAt: '2016-04-10'
-})
 
 @Options({
   components: {
